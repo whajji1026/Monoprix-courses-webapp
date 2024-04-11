@@ -1,0 +1,26 @@
+.swiper-pagination-bullet {
+    background: #ed1f26 none repeat scroll 0 0;
+    border-color: #ed1f26; 
+    width: 10px; 
+    height: 10px; 
+  }
+
+.swiper-button-prev::after {
+    color:#979292; 
+    font-size: 15px !important;
+    /* visibility:hidden ; */
+  }
+  
+.swiper-button-next::after {
+    color: #979292;
+    font-size: 15px !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 0; 
+}
+
+.swiper-slide::after {
+  transition: opacity 0.3s ease-in-out;
+}

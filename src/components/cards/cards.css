@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+
+
+.element-list {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  gap: 30px 30px;
+  width: 100%;
+  
+}
+
+.shopCard {
+  /* min-width: 100%;
+  min-height: 100%; */
+  max-width: 100%;
+ 
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 11px !important;
+  height: 300px;
+}
+
+@media (max-width: 576px) {
+  .element-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .element-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .element-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1900px) {
+  .element-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1900px) {
+  .element-list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+
+
+.img-store-home {
+  /* height: auto; */
+  width: 100%;
+  object-fit: cover;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.cardBody {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 20px 30px;
+}
+.card-title {
+  height: auto;
+}
+.card-title,
+.card-text {
+  margin-left: 15px;
+  margin-bottom: 10px !important;
+}
+.flex {
+  display: flex;
+  justify-items: flex-start;
+}
+.address { 
+  margin-left: 5px;  margin-bottom: 3px;
+  max-width: 230px;
+}
+.title-delivery {
+  margin-bottom: 3px;
+} 
+.address > .name {
+  font: normal normal bold 15px/17px Poppins;
+  letter-spacing: 0px;
+  color: #2e2e2e;
+  margin-bottom: 8px;
+}
+.address-name,
+.title-delivery {
+  font: normal normal normal 12px/18px Poppins;
+  letter-spacing: 0;
+  color: #2e2e2e;
+}
+/* .card-text:last-child {
+  margin-bottom: 0;
+}  */
+ .card-text {
+  margin-right: 15px;
+  padding-top: 5px;
+}
+
+.card-title,
+.card-text {
+  margin-left: 5px;
+  margin-bottom: 10px !important;
+  gap: 1px;
+}
+
+.action {
+  margin-left: auto;
+}
+.open-modal {
+  border: none;
+  background-color: transparent;
+}
+.icon {
+  width: 18px;
+}
+.icon-address {
+  width: 100%;
+  padding-right: 5px;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}

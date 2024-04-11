@@ -1,0 +1,150 @@
+.header-banner {
+    padding: 15px 0;
+    border-bottom: 1px solid #0000000D;
+    background: #fff;
+}
+
+ .container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+
+.header-nav-content {
+    display: flex;
+}
+
+.text-social {
+    font: normal normal bold 14px/14px Poppins;
+    color: #F13231;
+}
+
+span.icon-media {
+    margin-left: 15px;
+}
+.header-shop {
+    margin-left: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.text-social{
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+.header-shop{
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+.shop-name{
+    cursor: pointer;
+    color:#707070;
+    font: normal 15px/18px Poppins;
+    padding-right: 20px;
+}
+
+
+.header-nav {
+    background: #fff none repeat scroll 0 0;
+    letter-spacing: .5px;
+    padding: 25px 47px 10px 47px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 12px;
+    width: auto;
+    
+
+}
+.header-wrapper  {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    justify-content: space-between ;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.img-logo{
+    height:50px;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none !important;
+    display: flex;
+    gap: 5px;
+}
+.account-smile{
+    color:#707070;
+    font: normal 13px/18px Poppins;
+    padding-right: 15px;
+}
+.sep {
+    margin: 0 10px;
+}
+.searchtoggle form input {
+    padding: 11px !important;
+    margin-left: 21px;
+    /* border: none; */
+    outline: none;
+}
+
+.searchtoggle form button {
+    height: 43px;
+    width: 43px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ed2229;
+    position: relative;
+    margin: 2px!important;
+    margin-right: 3px !important;
+
+}
+.pull-right {
+    float: right;
+}
+
+.search-widget {
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    width: 45%;
+    margin-left: 10%;
+    margin-right: 6%;
+    
+}
+.material-icons {
+    color: #fff;
+    font-family: 'Material Icons';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
